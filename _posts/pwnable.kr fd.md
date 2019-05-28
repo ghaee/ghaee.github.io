@@ -28,3 +28,4 @@ tags: [pwnable.kr, toddler's bottle, fd, 파일 디스크립터]
 LETMEWIN을 입력하면서 system()를 실행한다.  
 
 ## flag: mommy! I think I know what a file descriptor is!!
+아 왜 됐다 안됐다하냐 짜증나게
