@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "pwnable.kr fd"
-tags: [pwnable.kr, toddler's bottle, fd, 파일 디스크립터]
+tags: [pwnable.kr, toddler's bottle, fd, file descriptor]
 ---
 
 # Toddler's Bottle 
