@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Kiko Now
+name: CTFWiki_2019
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: 대회용 익스플로잇 모음
 
 #
 # Flags below are optional
@@ -41,7 +41,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: AWEEKJ/kiko-now
+  github:
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
