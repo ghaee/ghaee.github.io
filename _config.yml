@@ -28,11 +28,11 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
-  # - name: Theme
-  #   url: https://github.com/AWEEKJ/kiko-now
+  - name: GitHub
+    url: https://github.com/hkdakuo/CTFWiki_2019
 
 # Pagination
-paginate: 5
+paginate: 6
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -53,7 +53,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2017 Kiko Now
+footer-text: © CTFWiki_2019
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
