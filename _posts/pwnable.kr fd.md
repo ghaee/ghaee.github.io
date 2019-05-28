@@ -13,18 +13,18 @@ tags: [pwnable.kr, toddler's bottle, fd, 파일 디스크립터]
 
 ![_config.yml]({{ site.baseurl }}/images/pwnable.kr/fd_source.png)
 
-코드를 보면 int fd와 read()를 잘봐야한다.
-> read()는  fd가 가리키는 파일로부터 32바이트만큼 데이터를 읽어와서 buf[]에 저장한다.
-> buf[]에 저장된 데이터는 “LETMEWIN”과 같아야한다.
-(그래야 if를 퉁과하고 flag를 읽어준다.)
+코드를 보면 int fd와 read()를 잘봐야한다.  
+> read()는  fd가 가리키는 파일로부터 32바이트만큼 데이터를 읽어와서 buf[]에 저장한다.  
+> buf[]에 저장된 데이터는 “LETMEWIN”과 같아야한다.  
+(그래야 if를 퉁과하고 flag를 읽어준다.)  
 
-우리는 buf[]에 LETMEWIN을 입력해서 넣어야한다. 그렇기 때문에 fd는 표준입력을 가리켜야한다.
+우리는 buf[]에 LETMEWIN을 입력해서 넣어야한다. 그렇기 때문에 fd는 표준입력을 가리켜야한다.  
 ```0(표준입력) / 1(표준출력) / 2(표준에러)```
 
 > argv[1] - 0x1234(4660) = 0
 > argv[1] = 4660
 
-./fd 4660
-LETMEWIN을 입력하면서 system()를 실행한다.
+./fd 4660  
+LETMEWIN을 입력하면서 system()를 실행한다.  
 
 ## flag: mommy! I think I know what a file descriptor is!!
