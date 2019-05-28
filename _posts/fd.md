@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pwnable.kr fd"
+title: "fd"
 tags: [pwnable.kr, toddler's bottle, fd, file descriptor]
 ---
 
