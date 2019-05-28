@@ -9,8 +9,12 @@ permalink: /about/
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
-
+_post 폴더 안에 md 파일로 글을 써서 git push 하기!  
+이때 파일명은 ***mypost.md***로 쓰면 날짜는 알아서 설정됨  
+글 안에 이미지 넣고 싶으면 images 폴더 안에 넣어주고 경로 적기  
+~~~
+예) ![_config.yml]({{ site.baseurl }}/images/pwnable.kr/fd_ls.png)
+~~~
 <!-- ### Contact me
 
 [email@domain.com](mailto:email@domain.com) -->
