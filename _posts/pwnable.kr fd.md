@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "pwnable.kr fd"
-tags: [pwnable.kr, toddler's bottle, fd, file descriptor]
-comments: true
+tags: [pwnable.kr, toddler's bottle, fd, 파일 디스크립터]
 ---
 
 # Toddler's Bottle 
@@ -11,6 +10,7 @@ comments: true
 ![_config.yml]({{ site.baseurl }}/images/pwnable.kr/fd_ls.png)
 
 > 실행파일 fd의 권한을 잘 보면 r-s로 setuid가 걸려있다. 이를 실행함으로써 fd_pwn의 권한을 얻고 flag를 읽어야 한다.
+
 ![_config.yml]({{ site.baseurl }}/images/pwnable.kr/fd_source.png)
 
 코드를 보면 int fd와 read()를 잘봐야한다.
