@@ -16,6 +16,3 @@ _post 폴더 안에 md 파일로 글을 써서 git push 하기!
 ~~~
 예) ![_config.yml]({{ site.baseurl }}/images/pwnable.kr/fd_ls.png)
 ~~~
-<!-- ### Contact me
-
-[email@domain.com](mailto:email@domain.com) -->
