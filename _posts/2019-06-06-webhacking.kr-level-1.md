@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "webhacking.kr level 1"
+title: "webhacking.kr 01"
 tags: [web, webhacking.kr, cookie]
 ---
 
