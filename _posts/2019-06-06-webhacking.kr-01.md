@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "webhacking.kr CH1"
+title: "webhacking.kr 01"
 tags: [web, webhacking.kr, cookie]
 ---
 
-### Challenge 1
+### level 1
 
 ![_config.yml]({{ site.baseurl }}/images/webhacking.kr/CH1.png)  
 
